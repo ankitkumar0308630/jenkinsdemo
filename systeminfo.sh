@@ -12,3 +12,9 @@ echo ""
 echo "Detecting the system time when it was last rebooted"
 uptime
 echo ""
+echo "Detecting the Memory on the System"
+free -m
+echo ""
+echo "Detecting the users who are logged on to the system"
+w
+echo ""
